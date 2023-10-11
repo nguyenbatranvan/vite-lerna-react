@@ -1,7 +1,7 @@
 {
   "name": "header",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "main": "es/index.js",
   "types": "es/index.d.ts",
@@ -9,14 +9,15 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "build-tsup": "rm -rf es && tsup",
-    "install": "npm run build-tsup",
+    "prepublish": "npm run build-tsup",
+    "prepublishOnly": "npm run build-tsup",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.2.0",
-    "share-state": "*",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "share-state": "^0.1.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.14",
