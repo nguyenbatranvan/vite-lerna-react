@@ -6,7 +6,7 @@
   "author": "vannbt",
   "license": "MIT",
   "publishConfig": {
-    "registry": "https://www.npmjs.com/settings/icondo/packages"
+    "registry": "https://www.npmjs.com/settings/icondo"
   },
   "scripts": {
     "build": "rm -rf es && tsup",
@@ -31,5 +31,6 @@
     "eslint-plugin-react-refresh": "^0.4.1",
     "typescript": "^5.0.4",
     "vite": "^4.4.0"
-  }
+  },
+  "gitHead": "30a0c9e4f2a04da816d5240c5bb8d2383f6faed0"
 }
