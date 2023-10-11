@@ -1,6 +1,6 @@
-import {useBearStore} from 'share-state/es';
 import './App.css'
 import {lazy, Suspense, useState} from "react";
+import {useBearStore} from "@icondo/share-state";
 
 const TestCart = lazy(() => import("./components/test-cart.tsx").then(r => ({default: r.TestCart})))
 

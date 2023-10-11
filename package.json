@@ -10,7 +10,9 @@
     "dev": "lerna run --parallel dev",
     "preview": "lerna run --parallel preview",
     "build": "lerna run --parallel build",
-    "clean": "lerna run --parallel clean"
+    "clean": "lerna run --parallel clean",
+    "publish": "npx lerna --no-private publish from-package",
+    "publish-scope": "npx lerna publish --canary --force-publish"
   },
   "dependencies": {
     "zustand": "^4.4.3"

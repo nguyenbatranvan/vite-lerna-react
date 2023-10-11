@@ -30,5 +30,6 @@
     "typescript": "^5.0.4",
     "vite": "^4.4.0"
   },
-  "description": "share state"
+  "description": "share state",
+  "gitHead": "0daaf3afce9a8cfc555a5794d3b126002a0c7cf2"
 }

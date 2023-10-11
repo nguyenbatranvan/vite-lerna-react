@@ -13,7 +13,7 @@
     "head": "*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "share-state": "^0.1.2"
+    "@icondo/share-state": "^0.1.3"
   },
   "devDependencies": {
     "@types/react": "^18.2.14",

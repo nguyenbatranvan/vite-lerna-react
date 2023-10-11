@@ -1,4 +1,4 @@
-import {useBearStore} from "share-state/es";
+import {useBearStore} from "@icondo/share-state";
 
 export const Header = () => {
     const {bears, removeAllBears} = useBearStore();
