@@ -6,6 +6,7 @@ interface IProps {
     removeAllBears: () => void;
 }
 
+
 export const useBearStore = create<IProps>((set) => ({
     bears: 0,
     increasePopulation: () => set((state) => ({bears: state.bears + 1})),

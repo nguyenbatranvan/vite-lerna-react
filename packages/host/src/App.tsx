@@ -2,13 +2,11 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import AppCart from "cart/src/App.tsx";
-import { useBearStore } from 'share-state/es';
-import {Header} from "header";
+import {useBearStore} from "share-state/es";
 function App() {
     const {bears, increasePopulation} = useBearStore();
     return (
         <>
-            <Header/>
             <AppCart/>
             <div>
                 <a href="https://vitejs.dev" target="_blank">
