@@ -1,0 +1,25 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "packages/common/*"
+  ],
+  "scripts": {
+    "start": "lerna run --parallel start",
+    "dev": "lerna run --parallel dev",
+    "preview": "lerna run --parallel preview",
+    "build": "lerna run --parallel build",
+    "clean": "lerna run --parallel clean"
+  },
+  "dependencies": {
+    "zustand": "^4.4.3"
+  },
+  "devDependencies": {
+    "lerna": "^7.3.0",
+    "rollup": "^4.0.2",
+    "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "tsup": "^7.2.0"
+  }
+}
