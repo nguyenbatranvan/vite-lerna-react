@@ -1,9 +1,14 @@
 {
   "name": "share-state",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "es/index.js",
   "types": "es/index.d.ts",
+  "author": "vannbt",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://www.npmjs.com/settings/icondo/packages"
+  },
   "scripts": {
     "build": "rm -rf es && tsup",
     "prepublish": "npm run build",
